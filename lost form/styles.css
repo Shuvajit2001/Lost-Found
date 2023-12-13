@@ -1,0 +1,43 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #007bff;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav img {
+  margin: 0;
+  
+  height: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007bff;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 20px;
+}

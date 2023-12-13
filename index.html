@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-kzv3HZIsBkQ8q2I2zK01PTNO8f23/8bsoDpfOq9nmFz6TNbUaWOH2/k8XGT0CtmDlEKRrJBv2S5g3OQqSDlxQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+  <title>Your Webpage Title</title>
+</head>
+<body>
+
+
+<!--navigation-->
+    <nav>
+      <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Social</a></li>
+          <li><a href="https://forms.gle/EMuCnQj7Gs3zF5b48">Feedback</a></li>
+          <li><a href="Login/index.html">Login</a></li>
+      </ul>
+      <ul>
+        <li><a href="#"><img src="Logo.png" alt="Your logo" height="150"></a></li>
+          <li class="hideOnMobile"><a href="#footer">Contact</a></li>
+          <li class="hideOnMobile"><a href="#footer">Social</a></li>
+          <li class="hideOnMobile"><a href="https://forms.gle/EMuCnQj7Gs3zF5b48" target="_blank">Feedback</a></li>
+          <li class="hideOnMobile"><a href="Login/index.html">Login</a></li>
+          <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+  </nav>
+
+<!-- Body Section -->
+<div class="container">
+  <div class="row no-gutters">
+    <!-- Upper Horizontal Half -->
+    <div class="col-lg-12">
+      <div class="row no-gutters">
+        <!-- Left Vertical Half -->
+        <div class="col-lg-6">
+          <h1 class="display-4 fw-bold green-yellow-text left-align-text">DESTINATION FOR ALL YOUR LOST ITEMS AND GOOD DEEDS.</h1>
+          </div>
+
+        <!-- Right Vertical Half -->
+        <div class="col-lg-6">
+          <!-- Centered Content -->
+          <div class="text-center">
+            <!-- Big Magnifying Glass Icon -->
+            <div class="mt-3">
+              <img src="Search.png" width="150" height="150" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  </div>
+
+            <!-- Buttons  -->
+            <div class="mt-4">
+              <button class="btn btn-danger btn-lg rounded-pill"><a href="lost form/index.html">LOST</a></button>
+              <button class="btn btn-warning btn-lg rounded-pill" id="found"><a href="found form/index.html">FOUND</a></button>
+              <button class="btn btn-success btn-lg rounded-pill"><a href="feed/feed.html">FEED</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row no-gutters mt-4">
+    <div class="col-lg-12">
+      <h2 class="text-center text-black t-head" >Testimonials</h2>
+    </div>
+  </div>
+  <!-- Lower Horizontal Half with Slider --> 
+  <div class="testimonials">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p class="t-content">This page helped me find my valuable documents. All thanks to to the person who made this website</p>
+          <img class="t-image" src="student.png" class="d-block w-100" alt="...">
+          <h5>Sachin Saurav</h5>
+        </div>
+        <div class="carousel-item">
+          <p class="t-content">I lost my room key during fest but was able to get is back just because of LOFO site</p>
+          <img class="t-image" src="student.png" class="d-block w-100" alt="...">
+          <h5>Shiva Chaudhary</h5>
+        </div>
+        <div class="carousel-item">
+          <p class="t-content">I found someone's earphone lying beside library then listed it on this website and returned it to its owner. At last it felt  good to help society in this manner. All thanks to this page.</p>
+          <img class="t-image" src="student.png" class="d-block w-100" alt="...">
+          <h5>Pintu Mondal</h5>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+  </div>
+  
+
+  <!-- Footer Section -->
+  <div id="footer-icons">
+    <div class="row no-gutters mt-4">
+      <div class="col-lg-12 footer">
+        <a href="#" class="footer-icons"><strong><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg></strong></a>
+        <a href="#" class="footer-icons"><strong><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg></strong></a>
+        <a href="#" class="footer-icons"><strong><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+          <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+        </svg></strong></a>
+        <a href="#" class="footer-icons"><strong><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+        </svg></strong></a>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script>
+  function showSidebar(){
+      const sidebar=document.querySelector('.sidebar')
+      sidebar.style.display='flex'
+  }
+  function hideSidebar(){
+      const sidebar=document.querySelector('.sidebar')
+      sidebar.style.display='none'
+  }
+</script>
+<script>
+  // JavaScript for the slider functionality
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    const slider = document.getElementById("slider");
+    currentSlide = index;
+    slider.style.transform = `translateX(${-index * 100}%)`;
+  }
+
+  function nextSlide() {
+    if (currentSlide < 2) {
+      currentSlide++;
+    } else {
+      currentSlide = 0;
+    }
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    if (currentSlide > 0) {
+      currentSlide--;
+    } else {
+      currentSlide = 2;
+    }
+    showSlide(currentSlide);
+  }
+</script>
+</body>
+</html>
